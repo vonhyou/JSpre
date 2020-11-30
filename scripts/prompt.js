@@ -7,6 +7,8 @@ alert(`You are ${age} years old!`);
 
 let name = prompt("What's your name?")
 
+// empty input is not undefined, it's ""
+
 if (name == "") {
   alert("Hello, Anonymous!")
 } else {
