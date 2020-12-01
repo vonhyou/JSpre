@@ -1,11 +1,11 @@
 let username = prompt("Who's there?")
 
-if (username === "Cancel") {
+if (username === "" || username === null) {
   alert("Canceled")
 } else if (username === "Admin") {
   let pwd = prompt("Your key, please.")
 
-  if (pwd === "Cancel") {
+  if (pwd === "" || pwd == null) {
     alert("Canceled")
   } else if (pwd === "TheMaster") {
     alert("welcome!")
