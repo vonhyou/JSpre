@@ -1,4 +1,4 @@
-function ask(question, ja, nein) {
+function ask (question, ja, nein) {
   if (confirm(question)) ja()
   else nein()
 }
@@ -15,6 +15,6 @@ function nein() {
 ask("Do you like chips?", ja, nein)
 */
 
-ask("Do you like chips?",
-  function() { alert("you agree") },
-  function() { alert("you disagree") })
+ask('Do you like chips?',
+  function () { alert('you agree') },
+  function () { alert('you disagree') })

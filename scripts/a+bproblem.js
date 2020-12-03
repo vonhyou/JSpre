@@ -1,3 +1,3 @@
-let a = prompt("para1"), b = prompt("para2")
+const a = prompt('para1'); const b = prompt('para2')
 
 alert(+a + +b)

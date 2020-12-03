@@ -1,4 +1,4 @@
-let age = prompt("how old are you?", 18)
+const age = prompt('how old are you?', 18)
 
 /*
 let welcome = (age > 18) ?
@@ -6,8 +6,8 @@ let welcome = (age > 18) ?
   function() { alert("guna!") }
 */
 
-let welcome = (age > 18) ?
-  () => alert("welcome!") :
-  () => alert("guna!")
+const welcome = (age > 18)
+  ? () => alert('welcome!')
+  : () => alert('guna!')
 
 welcome()

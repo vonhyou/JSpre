@@ -1,3 +1,3 @@
-let isOIer = confirm("Are you an OIer?")
+const isOIer = confirm('Are you an OIer?')
 
 alert(isOIer)
