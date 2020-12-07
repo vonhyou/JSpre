@@ -29,6 +29,7 @@ obj.key = 'hello, world!'
 alert(isEmpty(obj))
 */
 
+/* Task 3
 const salaries = {
   John: 100,
   Ann: 160,
@@ -40,3 +41,21 @@ let sum = 0
 for (const key in salaries) { sum += salaries[key] }
 
 alert(sum)
+*/
+
+const menu = {
+  width: 200,
+  height: 300,
+  title: 'My menu'
+}
+
+multiplyMenu(menu)
+
+function multiplyMenu (menu) {
+  for (const key in menu) {
+    if (typeof menu[key] === 'number') { menu[key] *= 2 }
+  }
+}
+
+alert(menu.width)
+alert(menu.title)
