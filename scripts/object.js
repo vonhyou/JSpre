@@ -1,4 +1,4 @@
-/*
+/* Task 1
 const user = {}
 
 user.name = 'John'
@@ -15,6 +15,7 @@ alert(user.name)
 alert(user.surname)
 */
 
+/* Task 2
 function isEmpty(obj) {
   for (let key in obj) return false
   return true
@@ -26,3 +27,4 @@ alert(isEmpty(obj))
 
 obj.key = 'hello, world!'
 alert(isEmpty(obj))
+*/
